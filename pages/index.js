@@ -7,6 +7,19 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="hogehoge" />
+        <meta property="og:description" content="fugafuga" />
+        <meta name="keywords" content="piyopiyo" />
+        <meta property="og:type" content="blog" />
+        <meta property="og:url" content="https://yahoo.co.jp" />
+        <meta property="og:image" content="https://picsum.photos/200/300" />
+        <meta property="og:site_name" content="ogog" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@tcr_jp" />
+        <meta name="twitter:url" content="https://yahoo.co.jp" />
+        <meta name="twitter:title" content="hogehoge" />
+        <meta name="twitter:description" content="fugafuga" />
+        <meta name="twitter:image" content="https://picsum.photos/200/300" />
       </Head>
 
       <main className={styles.main}>
